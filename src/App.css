@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  width: 100%;
+  padding: 3%;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  padding: 4%;
+  background-color: skyblue;
+  color: white;
+}
+
+.login {
+  background-color: gray;
+  padding: 15% 10%;
+  size: 200px;
+}
+
+.links {
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+.links a {
+  margin-right: 20px;
+  text-decoration-line: underline;
+  color: white;
+  font-size: 20px;
+}
+
+.pagec h1 a {
+  color: white;
+}
+
+.pagea {
+  border: rgb(6, 240, 103) solid 1px;
+  background-color: rgb(6, 245, 105);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.pageb {
+  border: rgb(235, 94, 12) solid 1px;
+  background-color: rgb(245, 75, 8);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.pagec {
+  border: rgb(71, 12, 235) solid 1px;
+  background-color: rgb(52, 8, 245);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.pagee {
+  border: rgb(135, 235, 177) solid 1px;
+  background-color: rgb(135, 235, 177);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.paged {
+  border: rgb(235, 94, 12) solid 1px;
+  background-color: rgb(245, 75, 8);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.pagef {
+  border: rgb(71, 12, 235) solid 1px;
+  background-color: rgb(52, 8, 245);
+  padding: 40px;
+  margin: 50px 100px;
+}
+
+.leftnav {
+  background-color: tomato;
+  height: 900px;
+}
+
+.link a {
+  margin: 15px 10px;
+  font-size: 20px;
+  color: white;
+  padding: 0px 20px;
+  text-decoration-line: underline;
+}
