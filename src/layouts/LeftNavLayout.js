@@ -16,13 +16,13 @@ class LeftNavLayout extends React.Component {
             <div className="row">
                 <div className="leftnav col-md-3">
                     <div className="link row">
-                        <a href="/nav/paged">Page D</a>
+                        <a href="/profile/paged">Page D</a>
                     </div>
                     <div className="link row">
-                        <a href="/nav/pagee">Page E</a>
+                        <a href="/profile/pagee">Page E</a>
                     </div>
                     <div className="link row">
-                        <a href="/nav/pagef">Page F</a>
+                        <a href="/profile/pagef">Page F</a>
                     </div>
                     <div className="row">
                         <Button variant="warning" type="button">
