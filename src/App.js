@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Layout from './layouts/PrimaryLayout'
+import DashboardLayout from './layouts/DashboardLayout'
 import LoginLayout from './layouts/LoginLayout'
 import LeftNavLayout from './layouts/LeftNavLayout'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +15,7 @@ class App extends React.Component {
           <BrowserRouter>
             <Switch>
               <Route exact path="/login" render={(props) => <LoginLayout {...props} /> } />
-              <Route path='/dashboard' render={(props) => <Layout {...props} /> } />
+              <Route path='/dashboard' render={(props) => <DashboardLayout {...props} /> } />
               <Route path='/profile' render={(props) => <LeftNavLayout {...props} /> } />
             </Switch>
           </BrowserRouter>

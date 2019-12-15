@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 
-class Layout extends React.Component {
+class DashboardLayout extends React.Component {
 
     render(){
       const { match } = this.props
@@ -32,8 +32,8 @@ class Layout extends React.Component {
    }
  }
 
- Layout.propTypes = {
+ DashboardLayout.propTypes = {
      match: PropTypes.any.isRequired
  }
 
-export default Layout
+export default DashboardLayout
